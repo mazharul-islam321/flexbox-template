@@ -1,0 +1,364 @@
+*{
+	margin:0;
+	padding:0;
+}
+.background-container{
+	background-image: url(2decb99a6ae593357d95e6a8df544b3e.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-color: green;*/
+	height: 100vh;
+	opacity: 0.8;
+}
+.header-container{
+	align-items: center;
+	height: 20vh;
+	/*background-color: yellow;*/
+}
+
+
+.header-text{
+	flex:1;
+	/*background-color: gray;*/
+	padding-left:50px;
+	/* text-align: center; */
+	font-family: 'Barlow', sans-serif;
+}
+.header-text a{
+	text-decoration: none;
+	font-size: 40px;
+	color: white;
+}
+
+
+
+
+
+.header-nav{
+	flex:1;
+	/*background-color: rgb(238, 61, 61);*/
+}
+.header-nav ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+.header-nav ul li{
+	list-style-type: none;
+	padding: 16px;
+
+}
+.header-nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+.fab{
+	font-size: 20px;
+}
+strong{
+	border:1px solid white;
+	padding: 15px 23px;
+	background-color: white;
+	color: black;
+}
+
+
+
+.background-text-container{
+	display: flex;
+	width: 55vw;
+	height: 80vh;
+	align-items:flex-end;
+	
+}
+.background-text{
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px;
+	padding-bottom: 40px;
+	font-family: 'Barlow', sans-serif;
+
+}
+.background-text h2{
+	font-size: 65px;
+	color: white;
+	margin-bottom: 25px;
+}
+.background-text a{
+	text-decoration: none;
+	color: black;
+	border:1px solid white;
+	padding: 20px 30px;
+	width: 100px;
+	background-color: white;
+	font-size: 20px;
+}
+
+/*second container........*/
+
+.about-container{
+	
+	flex-direction: row;
+	background-color: #dedddd99;
+
+}
+.about-text{
+	flex:1;
+	font-size: 27px;
+	padding: 30px 0px 30px 50px;
+	font-family: 'Barlow', sans-serif;
+
+}
+.info-text{
+	flex:1;
+	font-size: 30px;
+	display: flex;
+	justify-content: flex-end;
+	padding: 30px 20px 30px 0px;
+	line-height: 40px;
+	font-family: 'Barlow', sans-serif;
+	font-weight: 300;
+}
+
+
+/*third conatiner............*/
+
+
+.banner{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-bottom: 40px;
+}
+.banner-text{
+	flex:1;
+	padding-left:50px;
+	font-family: 'Barlow', sans-serif;
+
+}
+.banner-text h2{
+	font-size: 47px;
+	margin-bottom: 30px;
+}
+.banner-text p{
+	font-size: 26px;
+	line-height: 38px;
+	margin-bottom: 60px;
+	font-weight: 300;
+}
+.banner-text a{
+	text-decoration: none;
+	border:1px solid white;
+	padding: 22px;	
+	background-color: green;
+}
+.banner-text a b{
+	font-size: 20px;
+	color: white;	
+}
+.banner-image{
+	flex:1;
+	padding-top: 40px;
+}
+.banner-image img{
+	width: 44vw;
+	height: 95vh;
+}
+
+/*fourth container.........*/
+
+
+.banner-two{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-bottom: 40px;
+}
+
+
+
+.banner-two-image{
+	flex:1;
+	padding-top: 40px;
+	padding-left: 50px;
+}
+.banner-two-image img{
+	width: 44vw;
+	height: 95vh;
+}
+
+
+
+.banner-two-text{
+	flex:1;
+	font-family: 'Barlow', sans-serif;
+
+}
+.banner-two-text h2{
+	font-size: 47px;
+	margin-bottom: 30px;
+}
+.banner-two-text p{
+	font-size: 26px;
+	line-height: 38px;
+	margin-bottom: 60px;
+	font-weight: 300;
+}
+.banner-two-text a{
+	text-decoration: none;
+	border:1px solid white;
+	padding: 22px;	
+	background-color: green;
+
+}
+.banner-two-text a b{
+	font-size: 20px;
+	color: white;
+}
+
+
+/*fifth container......*/
+
+
+.second-background{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(hellow.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 90vh;
+	opacity: 0.8;
+}
+.second-background-text{
+	text-align: center;
+	font-family: 'Barlow', sans-serif;
+
+}
+.second-background-text h2{
+	font-size: 50px;
+	color: #142ac7fc;
+	margin-bottom: 40px;
+}
+.second-background-text p{
+	font-size: 25px;
+	color: #142ac7fc;
+}
+
+/*sixth container........*/
+
+
+.sign-up-container{
+	
+	flex-direction: row;
+	align-items: center;
+	padding: 40px 0px 40px 0px;
+	font-family: 'Barlow', sans-serif;
+
+}
+
+
+.sign-up-info{
+	flex:1;
+	padding-left: 50px;
+}
+.sign-up-info h2{
+	font-size: 47px;
+}
+
+
+
+.sign-up-text{
+	flex:1;
+	padding-left: 50px;
+	font-weight: 300;
+}
+.sign-up-text p{
+	font-size: 21px;
+	margin-bottom: 40px;
+}
+.sign-up-text input{
+	border:1px solid #ddd;
+	padding: 23px;
+	font-size: 17px;
+	margin-right: 6px;
+	width: 18vw;
+}
+.sign-up-text a{
+	text-decoration: none;
+	border:1px solid black;
+	color: white;
+	padding: 24px 42px;
+	background-color: #070769;
+	display: inline-block;
+}
+
+
+/*last container........*/
+
+
+
+.footer{
+	display: flex;
+	flex-direction: row;
+	background-color: #403f3f;
+	color: white;
+	padding: 40px 0px 60px 0px;
+	font-family: 'Barlow', sans-serif;
+
+}
+.footer-address{
+	flex:1;
+	padding-left: 50px;
+	line-height: 27px;
+}
+.footer-address h2{
+	margin-bottom: 40px;
+}
+.footer-address p{
+	font-size: 20px;
+}
+.footer-address a u{
+	font-size: 20px;
+	color: white;
+}
+.footer-address p a u{
+	font-size: 20px;
+	color: white;
+}
+.margin{
+	margin-top: 18px;
+}
+.footer-text{
+	flex:1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.work{
+	display: flex;
+	flex-direction: column;
+	
+}
+.work h2{
+	margin-bottom: 30px;
+}
+.work a{
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+}
+.follow{
+	display: flex;
+	flex-direction: column;
+}
+.follow h2{
+	margin-bottom: 30px;
+}
+.follow a{
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+}

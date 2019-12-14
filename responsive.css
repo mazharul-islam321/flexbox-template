@@ -1,0 +1,89 @@
+@media screen and (min-width: 700px) {
+    .header-container {   
+	    display: flex;
+
+  }
+}
+@media screen and (max-width: 804px){
+	.header-text {
+  		text-align: center;
+  	}
+    .background-text h2{
+  	    font-size: 40px;
+    } 
+}
+
+/*second container...*/
+
+
+@media screen and (min-width: 700px) {
+    .about-container{   
+	    display: flex;
+  }
+}
+@media screen and (max-width: 700px){
+	.about-text{
+  	    font-size: 20px;
+  }
+    .info-text{
+	  	padding-left: 50px;
+	  	font-size: 21px;
+  }
+}
+
+/*third container.....*/
+
+@media screen and (max-width: 700px){
+	.banner-text h2{
+		font-size: 35px;
+	}
+	.banner-text p{
+		font-size: 18px;
+	}
+	.banner-image img{
+		width: 35vw;
+	    height: 35vh;
+	    padding-left: 20px;
+	}
+}
+
+/*fourth container....*/
+
+@media screen and (max-width: 700px){
+	.banner-two-image img{
+    	width: 34vw;
+		height: 35vh;
+    }
+    .banner-two-text h2{
+    	font-size: 35px;
+    }
+    .banner-two-text p{
+    	font-size: 18px;
+    }
+}
+
+/*fifth container....*/
+
+@media screen and (max-width: 700px){
+	.second-background-text h2{
+		font-size: 35px;
+	}
+}
+
+/*sisth container.....*/
+
+@media screen and (min-width: 700px){
+	.sign-up-container{
+		display: flex;
+	}
+	
+}
+@media screen and (max-width: 700px){
+	.sign-up-info h2{
+		font-size: 35px;
+	}
+	.sign-up-text p{
+		font-size: 18px;
+		margin-top: 10px;
+	}
+}
